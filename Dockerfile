@@ -11,3 +11,5 @@ ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
+
+COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
