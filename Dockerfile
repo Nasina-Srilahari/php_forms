@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:8.0.13-apache
 
 # Copy project files to Apache document root
 COPY . /var/www/html/
